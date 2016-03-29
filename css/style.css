@@ -11,6 +11,19 @@
   zoom: 1;
   /* ie 6/7 */ }
 
+@media screen and (min-width: 800px) {
+  .wrapper {
+    width: 87%; }
+
+  .main_toppicks, .recent_battles {
+    float: left;
+    width: 50%; }
+
+  footer {
+    width: 85%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 7.5%; } }
 @font-face {
   font-family: Badaboom;
   src: url(../fonts/badaboom.ttf);
@@ -18,29 +31,37 @@
 @font-face {
   font-family: Digitalstrip;
   src: url(../fonts/digitalstrip_regular.ttf); }
+/*
+    SIL Open Font License v1.10
+    License found at: http://www.fontsquirrel.com/license/bebas-neue
+*/
 @font-face {
-  font-family: BebasNeue; }
+  font-family: 'bebas_neue_regularregular';
+  src: url("../fonts/bebasneue_regular-webfont.eot");
+  src: url("../fonts/bebasneue_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bebasneue_regular-webfont.woff2") format("woff2"), url("../fonts/bebasneue_regular-webfont.woff") format("woff"), url("../fonts/bebasneue_regular-webfont.ttf") format("truetype"), url("../fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 body {
-  background: url(../img/background_burst.jpg);
+  background: url(../img/background.jpg);
   margin: 0;
   position: relative;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .logo_wrapper {
-  background-image: url(../img/marvel.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 100%; }
 
 .wrapper {
-  width: 90%;
   margin: 0 auto; }
 
 .star {
-  float: left;
-  width: 330px;
+  width: 20%;
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1; }
 
 header {
@@ -76,9 +97,10 @@ header {
 .main_buttons {
   background: url(../img/marvel_group.jpg);
   background-repeat: no-repeat;
-  opacity: .85;
+  background-size: cover;
   display: block;
-  height: 574px; }
+  height: 574px;
+  position: relative; }
 
 .buttons {
   height: 574px; }
@@ -92,15 +114,22 @@ header {
   position: relative;
   top: 100px;
   left: 20%;
-  font-family: BebasNeue; }
+  font-family: bebas_neue_regularregular; }
   .character_button h2 {
     margin: 0;
-    padding-left: 20px; }
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 2em; }
   .character_button a {
     text-decoration: none;
     color: yellow;
     display: block;
     padding: 60px 0; }
+  .character_button p {
+    color: yellow;
+    margin: 0;
+    padding: 55px 20px;
+    font-size: 1.5em; }
 
 .battle_button {
   background: url(../img/battle_button.png);
@@ -111,37 +140,59 @@ header {
   position: relative;
   top: 50px;
   left: 60%;
-  font-family: BebasNeue; }
+  font-family: bebas_neue_regularregular; }
   .battle_button h2 {
     margin: 0;
-    padding-left: 56px; }
+    padding: 10px 56px;
+    text-align: center;
+    font-size: 2em; }
   .battle_button a {
     text-decoration: none;
     color: yellow;
     padding: 80px 0;
     display: block; }
 
-.picks_battles .main_toppicks {
-  float: left;
-  width: 50%; }
+.picks_battles {
+  font-family: bebas_neue_regularregular; }
   .picks_battles .main_toppicks h3 {
     color: yellow;
-    text-align: center; }
+    text-align: center;
+    font-size: 1.5em; }
   .picks_battles .main_toppicks ul {
     padding: 0;
     margin: 0;
     list-style-type: none; }
-.picks_battles .recent_battles {
-  float: left;
-  width: 50%; }
+  .picks_battles .main_toppicks li {
+    display: table;
+    margin: 20px 0; }
+    .picks_battles .main_toppicks li img {
+      float: left; }
+    .picks_battles .main_toppicks li p {
+      float: left;
+      color: yellow;
+      font-size: 1.5em;
+      margin: 0;
+      padding: 55px 15px; }
   .picks_battles .recent_battles h3 {
     color: yellow;
-    text-align: center; }
+    text-align: center;
+    font-size: 1.5em; }
   .picks_battles .recent_battles ul {
     padding: 0;
     margin: 0;
     list-style-type: none; }
   .picks_battles .recent_battles .recent_versus {
     background: url(../img/versus.png); }
+
+footer {
+  background: #000;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 7.5%; }
+  footer p {
+    float: left;
+    color: yellow;
+    font-family: bebas_neue_regularregular; }
 
 /*# sourceMappingURL=style.css.map */
