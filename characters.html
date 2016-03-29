@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marvel - Super Sidewalk Slam</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="logo_wrapper">
+	<img src="img/marvelstar_2.png" class="star" />
+	<div class="wrapper">	
+		<header class="clearfix">
+			<h1><span class="first_s">S</span>uper <span class="first_s">S</span>idewalk <span class="first_s">S</span>lam</h1>		
+			<ul class="topnav">
+				<li><a href="character.html">CHARACTER</a></li>
+				<li><a href="battle.html">BATTLE</a></li>
+			</ul>
+		</header>
+		<style>
+			li{
+				list-style: none;
+			}
+
+			li p, li button{
+				display: inline-block;
+			}
+			
+			.top_picks{
+				margin: 0 auto;
+			}
+
+			.top_picks div{
+				float: left;
+				width: 30%;
+			}
+		
+		</style>
+		<main>
+			<h2>Search for your own hero</h2>
+			<form action="submit">
+				<input type="text">
+				<input type="submit" value="&#128269;" class="search">
+				<!-- add class of "active" to see dropdown results
+                <div class="searchresults active">
+            	-->
+				<div class="searchresults">
+	                <ul>
+	                    <li>
+	                        <img src="img/113_70.jpg" alt="character">
+	                        <p>Character Name</p>
+	                        <button>Profile</button>
+	                        <button>Send To Battle</button>
+	                    </li>
+	                    <li>
+	                        <img src="img/113_70.jpg" alt="character">
+	                        <p>Character Name</p>
+	                        <button>Profile</button>
+	                        <button>Send To Battle</button>
+	                    </li><li>
+	                        <img src="img/113_70.jpg" alt="character">
+	                        <p>Character Name</p>
+	                        <button>Profile</button>
+	                        <button>Send To Battle</button>
+	                    </li><li>
+	                        <img src="img/113_70.jpg" alt="character">
+	                        <p>Character Name</p>
+	                        <button>Profile</button>
+	                        <button>Send To Battle</button>
+	                    </li><li>
+	                        <img src="img/113_70.jpg" alt="character">
+	                        <p>Character Name</p>
+	                        <button>Profile</button>
+	                        <button>Send To Battle</button>
+	                    </li><li>
+	                        <img src="img/113_70.jpg" alt="character">
+	                        <p>Character Name</p>
+	                        <button>Profile</button>
+	                        <button>Send To Battle</button>
+	                    </li><li>
+	                        <img src="img/113_70.jpg" alt="character">
+	                        <p>Character Name</p>
+	                        <button>Profile</button>
+	                        <button>Send To Battle</button>
+	                    </li><li>
+	                        <img src="img/113_70.jpg" alt="character">
+	                        <p>Character Name</p>
+	                        <button>Profile</button>
+	                        <button>Send To Battle</button>
+	                    </li><li>
+	                        <img src="img/113_70.jpg" alt="character">
+	                        <p>Character Name</p>
+	                        <button>Profile</button>
+	                        <button>Send To Battle</button>
+	                    </li><li>
+	                        <img src="img/113_70.jpg" alt="character">
+	                        <p>Character Name</p>
+	                        <button>Profile</button>
+	                        <button>Send To Battle</button>
+	                    </li>
+	                </ul>
+	            </div>
+            </form>
+            <div class="top_picks clearfix">
+				<h1>Top Picks</h1>
+				<div>
+					<img src="img/300_450.jpg" alt="character">
+					<h2>Character Name</h2>	
+				</div>
+				<div>
+					<img src="img/300_450.jpg" alt="character">
+					<h2>Character Name</h2>	
+				</div>
+				<div>
+					<img src="img/300_450.jpg" alt="character">
+					<h2>Character Name</h2>	
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>Data Provided By: Marvel. &copy; 2014 Marvel</p>
+			<p>UI/UX By: Will McCain &amp; Sarah Jones</p>
+			<p>Frameworks, Implementation, Animations, &amp; Literally Everything Else By: Dave Millican &amp; Fabian Murillo </p>
+		</footer>
+	</div><!-- /wrapper -->
+	</div>
+	 <script>
+        var box   = document.querySelector( ".searchresults" );
+        var search = document.querySelector( ".search" );
+
+        search.addEventListener( "click", function( e ){
+
+            box.className = "searchresults active";
+            e.preventDefault();
+        } );
+    </script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
