@@ -1,0 +1,147 @@
+/* CLEARFIX */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1;
+  /* ie 6/7 */ }
+
+@font-face {
+  font-family: Badaboom;
+  src: url(../fonts/badaboom.ttf);
+  font-weight: 100; }
+@font-face {
+  font-family: Digitalstrip;
+  src: url(../fonts/digitalstrip_regular.ttf); }
+@font-face {
+  font-family: BebasNeue; }
+body {
+  background: url(../img/background_burst.jpg);
+  margin: 0;
+  position: relative;
+  background-size: cover; }
+
+.logo_wrapper {
+  background-image: url(../img/marvel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%; }
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+.star {
+  float: left;
+  width: 330px;
+  position: absolute;
+  z-index: 1; }
+
+header {
+  position: relative;
+  height: 100px;
+  z-index: 0; }
+  header h1 {
+    font-family: Badaboom;
+    color: yellow;
+    margin: 0;
+    position: relative;
+    width: 340px;
+    float: left;
+    font-weight: 100;
+    margin-left: 110px; }
+  header .first_s {
+    color: red;
+    font-size: 3em;
+    text-shadow: 2px 5px 5px #000; }
+  header .topnav {
+    padding: 0;
+    margin: 30px 0 0 0;
+    float: right; }
+    header .topnav a {
+      color: yellow;
+      font-family: Digitalstrip;
+      font-size: 2em; }
+  header li {
+    color: yellow;
+    display: inline-block;
+    padding: 5px; }
+
+.main_buttons {
+  background: url(../img/marvel_group.jpg);
+  background-repeat: no-repeat;
+  opacity: .85;
+  display: block;
+  height: 574px; }
+
+.buttons {
+  height: 574px; }
+
+.character_button {
+  background: url(../img/choose_button.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 220px;
+  height: 200px;
+  position: relative;
+  top: 100px;
+  left: 20%;
+  font-family: BebasNeue; }
+  .character_button h2 {
+    margin: 0;
+    padding-left: 20px; }
+  .character_button a {
+    text-decoration: none;
+    color: yellow;
+    display: block;
+    padding: 60px 0; }
+
+.battle_button {
+  background: url(../img/battle_button.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 220px;
+  height: 200px;
+  position: relative;
+  top: 50px;
+  left: 60%;
+  font-family: BebasNeue; }
+  .battle_button h2 {
+    margin: 0;
+    padding-left: 56px; }
+  .battle_button a {
+    text-decoration: none;
+    color: yellow;
+    padding: 80px 0;
+    display: block; }
+
+.picks_battles .main_toppicks {
+  float: left;
+  width: 50%; }
+  .picks_battles .main_toppicks h3 {
+    color: yellow;
+    text-align: center; }
+  .picks_battles .main_toppicks ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; }
+.picks_battles .recent_battles {
+  float: left;
+  width: 50%; }
+  .picks_battles .recent_battles h3 {
+    color: yellow;
+    text-align: center; }
+  .picks_battles .recent_battles ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; }
+  .picks_battles .recent_battles .recent_versus {
+    background: url(../img/versus.png); }
+
+/*# sourceMappingURL=style.css.map */
