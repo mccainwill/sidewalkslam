@@ -11,8 +11,20 @@
 	src: url(../fonts/digitalstrip_regular.ttf);
 }
 
-@font-face{
-	font-family: BebasNeue;
+/*
+    SIL Open Font License v1.10
+    License found at: http://www.fontsquirrel.com/license/bebas-neue
+*/
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('../fonts/bebasneue_regular-webfont.eot');
+    src: url('../fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('../fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -34,18 +46,19 @@ body{
 	height:100%;
 
 }
-	.wrapper{
-		width:90%;
-		margin:0 auto;
 
-	}
+.wrapper{
+	width:90%;
+	margin:0 auto;
 
-	.star{
-			float:left;
-			width:330px;
-			position: absolute;
-			z-index: 1;
-		}
+}
+
+.star{
+	float:left;
+	width:330px;
+	position: absolute;
+	z-index: 1;
+}
 
 header{
 
@@ -54,41 +67,41 @@ header{
 	z-index:0;
 
 	h1{
-			font-family:Badaboom;
-			color:yellow;
-			margin:0;
-			position: relative;
-			width:340px;
-			float:left;
-			font-weight: 100;
-			margin-left:110px;
-		}
-
-		.first_s{
-			color:red;
-			font-size:3em;
-			text-shadow: 2px 5px 5px #000;
-		}
-
-		.topnav{
-			padding:0;
-			margin:30px 0 0 0;
-			float:right;
-
-			a{
-				color:yellow;
-				font-family:Digitalstrip;
-				font-size:2em;
-			}
-		}
-
-		li{
-			color:yellow;
-			display: inline-block;
-			padding:5px;
-		}
-
+		font-family:Badaboom;
+		color:yellow;
+		margin:0;
+		position: relative;
+		width:340px;
+		float:left;
+		font-weight: 100;
+		margin-left:110px;
 	}
+
+	.first_s{
+		color:red;
+		font-size:3em;
+		text-shadow: 2px 5px 5px #000;
+	}
+
+	.topnav{
+		padding:0;
+		margin:30px 0 0 0;
+		float:right;
+
+		a{
+			color:yellow;
+			font-family:Digitalstrip;
+			font-size:2em;
+		}
+	}
+
+	li{
+		color:yellow;
+		display: inline-block;
+		padding:5px;
+	}
+
+}
 
 
 
@@ -113,7 +126,7 @@ header{
 	position: relative;
 	top:100px;
 	left:20%;
-	font-family: BebasNeue;
+	font-family: bebas_neue_regularregular;
 
 	h2{
 		margin:0;
@@ -137,7 +150,7 @@ header{
 	position: relative;
 	top:50px;
 	left:60%;
-	font-family: BebasNeue;
+	font-family: bebas_neue_regularregular;
 
 	h2{
 		margin:0;
