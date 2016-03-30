@@ -1,0 +1,21 @@
+
+
+form{
+
+	li{
+		list-style: none;
+	}
+
+	li p, li button{
+		display: inline-block;
+	}
+	
+	.top_picks{
+		margin: 0 auto;
+	}
+
+	.top_picks div{
+		float: left;
+		width: 30%;
+	}
+}
