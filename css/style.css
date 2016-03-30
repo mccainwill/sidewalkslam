@@ -41,6 +41,22 @@
   src: url("../fonts/bebasneue_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bebasneue_regular-webfont.woff2") format("woff2"), url("../fonts/bebasneue_regular-webfont.woff") format("woff"), url("../fonts/bebasneue_regular-webfont.ttf") format("truetype"), url("../fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+form li {
+  list-style: none; }
+form li p, form li button {
+  display: inline-block; }
+
+.top_picks {
+  text-align: center; }
+  .top_picks div {
+    float: left;
+    width: 33%; }
+
+.searchresults {
+  display: none; }
+  .searchresults li {
+    display: block; }
+
 body {
   background: url(../img/background.jpg);
   margin: 0;
@@ -81,18 +97,25 @@ header {
     color: red;
     font-size: 3em;
     text-shadow: 2px 5px 5px #000; }
-  header .topnav {
+  header .top_nav {
     padding: 0;
     margin: 30px 0 0 0;
     float: right; }
-    header .topnav a {
+    header .top_nav a {
+      display: block;
+      padding: 15px 50px;
       color: yellow;
-      font-family: Digitalstrip;
-      font-size: 2em; }
+      background-color: #2286e8;
+      font-family: 'bebas_neue_regularregular';
+      font-size: 1em;
+      text-decoration: none; }
   header li {
     color: yellow;
     display: inline-block;
     padding: 5px; }
+    header li:last-child a {
+      padding: 15px 65px;
+      margin-left: 30px; }
 
 .main_buttons {
   background: url(../img/marvel_group.jpg);

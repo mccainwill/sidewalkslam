@@ -6,6 +6,8 @@
 
 @import "fonts";
 
+@import "characters";
+
 body{
 
 	background:url(../img/background.jpg);
@@ -61,15 +63,19 @@ header{
 		text-shadow: 2px 5px 5px #000;
 	}
 
-	.topnav{
+	.top_nav{
 		padding:0;
 		margin:30px 0 0 0;
 		float:right;
 
 		a{
-			color:yellow;
-			font-family:Digitalstrip;
-			font-size:2em;
+			display: block;
+			padding: 15px 50px;
+			color: yellow;
+			background-color: #2286e8;
+			font-family: 'bebas_neue_regularregular';
+			font-size: 1em;
+			text-decoration: none;
 		}
 	}
 
@@ -77,6 +83,11 @@ header{
 		color:yellow;
 		display: inline-block;
 		padding:5px;
+
+		&:last-child a{
+			padding: 15px 65px;
+			margin-left: 30px;
+		}
 	}
 
 }
