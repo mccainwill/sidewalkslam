@@ -18,12 +18,22 @@
   .wrapper {
     width: 87%; }
 
+  .star {
+    position: absolute;
+    top: -85px;
+    left: -91px;
+    z-index: 1; }
+
   .main_toppicks, .recent_battles {
     float: left;
     width: 50%; }
 
+  .battle1, .battle2 {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto 20px auto; }
+
   footer {
-    width: 85%;
     height: 100px;
     margin: 0 auto;
     padding: 0 7.5%; } }
@@ -134,13 +144,6 @@ body {
 .wrapper {
   margin: 0 auto; }
 
-.star {
-  width: 20%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1; }
-
 header {
   position: relative;
   height: 100px;
@@ -186,8 +189,7 @@ header {
   background-size: cover;
   display: block;
   height: 574px;
-  position: relative;
-  margin-bottom: 30px; }
+  position: relative; }
 
 .buttons {
   height: 574px; }
@@ -246,7 +248,7 @@ header {
   .picks_battles .main_toppicks h3 {
     color: yellow;
     text-align: center;
-    font-size: 1.5em; }
+    font-size: 2em; }
   .picks_battles .main_toppicks ul {
     padding: 0;
     margin: 0;
@@ -265,17 +267,30 @@ header {
   .picks_battles .recent_battles h3 {
     color: yellow;
     text-align: center;
-    font-size: 1.5em; }
+    font-size: 2em; }
   .picks_battles .recent_battles ul {
     padding: 0;
     margin: 0;
     list-style-type: none; }
   .picks_battles .recent_battles .recent_versus {
-    background: url(../img/versus.png); }
+    background: url(../img/versus.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 20%;
+    height: 111px;
+    float: left;
+    margin-top: 7%; }
+  .picks_battles .recent_battles .battle1 .character1, .picks_battles .recent_battles .battle1 .character2, .picks_battles .recent_battles .battle2 .character1, .picks_battles .recent_battles .battle2 .character2 {
+    background: url(../img/character_square.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 39%;
+    height: 200px;
+    float: left; }
 
 footer {
   background: #000;
-  width: 100%;
   height: 100px;
   margin-top: 30px;
   padding: 0 7.5%; }
