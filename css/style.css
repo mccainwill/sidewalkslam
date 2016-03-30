@@ -45,12 +45,33 @@ form li {
   list-style: none; }
 form li p, form li button {
   display: inline-block; }
+form input {
+  height: 45px;
+  border: solid 5px yellow;
+  background: #2286e8; }
+  form input:first-child {
+    width: 77%;
+    font-size: 1.3em;
+    color: yellow;
+    text-indent: 20px;
+    font-family: 'bebas_neue_regularregular';
+    letter-spacing: .2em; }
+  form input:nth-child(2) {
+    width: 9%;
+    margin-left: 2%;
+    height: 46px;
+    font-size: 1.9em; }
 
-.top_picks {
+.top_picks div {
+  float: left;
+  margin-right: 10%;
   text-align: center; }
-  .top_picks div {
-    float: left;
-    width: 33%; }
+  .top_picks div:last-child {
+    margin: 0; }
+  .top_picks div img {
+    border: solid 10px black; }
+.top_picks h1 {
+  font-size: 1.5em; }
 
 .searchresults {
   display: none; }
@@ -58,6 +79,9 @@ form li p, form li button {
     display: block; }
 
 body {
+  font-family: "bebas_neue_regularregular";
+  color: yellow;
+  letter-spacing: .2em;
   background: url(../img/background.jpg);
   margin: 0;
   position: relative;
@@ -86,13 +110,15 @@ header {
   z-index: 0; }
   header h1 {
     font-family: Badaboom;
-    color: yellow;
     margin: 0;
     position: relative;
-    width: 340px;
+    width: 380px;
     float: left;
     font-weight: 100;
     margin-left: 110px; }
+    header h1 a {
+      color: yellow;
+      text-decoration: none; }
   header .first_s {
     color: red;
     font-size: 3em;
@@ -123,7 +149,8 @@ header {
   background-size: cover;
   display: block;
   height: 574px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 30px; }
 
 .buttons {
   height: 574px; }
@@ -145,6 +172,7 @@ header {
     font-size: 2em; }
   .character_button a {
     text-decoration: none;
+    font-size: .75em;
     color: yellow;
     display: block;
     padding: 60px 0; }
@@ -171,6 +199,7 @@ header {
     font-size: 2em; }
   .battle_button a {
     text-decoration: none;
+    font-size: .75em;
     color: yellow;
     padding: 80px 0;
     display: block; }
@@ -211,11 +240,13 @@ footer {
   background: #000;
   width: 100%;
   height: 100px;
-  margin: 0 auto;
+  margin-top: 30px;
   padding: 0 7.5%; }
   footer p {
     float: left;
     color: yellow;
     font-family: bebas_neue_regularregular; }
+    footer p:nth-child(2) {
+      float: right; }
 
 /*# sourceMappingURL=style.css.map */
