@@ -208,14 +208,19 @@ form input {
     font-size: 1.5em; }
 
 .combatant {
-  background-image: url(../img/bio_bg.jpg);
+  padding-left: 31px;
+  background-image: url(../img/bio_bg_03.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 0 auto; }
+  width: 50%;
+  float: left;
+  box-sizing: border-box; }
 
 .character_bio {
   background-color: #fff4d5;
-  width: 50%; }
+  width: 50%;
+  float: left;
+  box-sizing: border-box; }
 
 body {
   font-family: "bebas_neue_regularregular";
@@ -230,7 +235,7 @@ body {
 header {
   width: 90%;
   position: relative;
-  height: 100px;
+  height: 115px;
   z-index: 0; }
   header h1 {
     font-family: Badaboom;

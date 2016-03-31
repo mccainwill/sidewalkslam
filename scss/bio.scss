@@ -1,11 +1,19 @@
 .combatant{
-	background-image: url(../img/bio_bg.jpg);
+	padding-left: 31px;
+	background-image: url(../img/bio_bg_03.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
-	margin: 0 auto;
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+		img{
+
+		}
 }
 
 .character_bio{
 	background-color: #fff4d5;
 	width: 50%;
+	float: left;
+	box-sizing: border-box;
 }
