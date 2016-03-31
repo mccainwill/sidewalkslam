@@ -190,7 +190,7 @@ form input {
   height: 250px;
   position: absolute; }
 
-.stats_battle {
+.stats_battle, .turn_battle {
   background: #7198b3;
   border: 20px solid #f7942e;
   margin: 30px 0; }
@@ -230,6 +230,19 @@ form input {
     font-size: 2em;
     color: #000;
     font-family: Badaboom; }
+
+.turn_battle .char_one {
+  float: left; }
+  .turn_battle .char_one p {
+    float: right; }
+.turn_battle .char_two {
+  float: right; }
+  .turn_battle .char_two p {
+    float: left; }
+
+.turns {
+  list-style-type: none;
+  padding: 0; }
 
 .card {
   background-color: #fff4d5; }
