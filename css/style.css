@@ -212,12 +212,10 @@ form input {
   .battle_buttons ul {
     padding: 0; }
   .battle_buttons li {
-    float: left; }
-  .battle_buttons li:first-child {
-    margin-right: 10px; }
+    float: left;
+    margin-right: 3.3%; }
   .battle_buttons li:last-child {
-    margin-left: 10px;
-    float: right; }
+    margin-right: 0px; }
 
 .button {
   display: inline-block;

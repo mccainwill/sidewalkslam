@@ -91,15 +91,11 @@
 
 	li{
 		float: left;
-	}
-
-	li:first-child{
-		margin-right:10px;
+        margin-right: 3.3%;
 	}
 
 	li:last-child{
-		margin-left:10px;
-		float: right;
+		margin-right: 0px;
 	}
 }
 
