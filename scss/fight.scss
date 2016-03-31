@@ -86,6 +86,19 @@
 	ul{
 		padding:0;
 	}
+
+	li{
+		float: left;
+	}
+
+	li:first-child{
+		margin-right:10px;
+	}
+
+	li:last-child{
+		margin-left:10px;
+		float: right;
+	}
 }
 
 .button{
@@ -93,10 +106,10 @@
     width: 30%;
     height: 100px;
     background: orange;
-    float: left;
+    // float: left;
     text-align: center;
     border: 6px solid #000;
-    margin:0 10px;
+    // margin:0 10px;
 
     p{
     	font-size: 2em;
