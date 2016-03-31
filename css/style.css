@@ -218,18 +218,53 @@ form input {
   background-repeat: no-repeat;
   width: 50%;
   float: left;
+  position: relative;
   box-sizing: border-box; }
   .combatant h1 {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
     font-family: Impact;
     text-transform: uppercase; }
     .combatant h1:first-letter {
-      color: red;
-      font-size: 5em; }
+      font-size: 4em; }
+
+.bio_img {
+  background-image: url(../img/detail.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 20;
+  height: 568px;
+  box-sizing: border-box;
+  margin: 0 7% 17% 7%; }
+
+.levels {
+  background-color: #000; }
+  .levels p {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    float: left;
+    width: 14%;
+    margin: 0;
+    padding: 0; }
+    .levels p:first-child {
+      width: 8%;
+      text-align: left; }
+    .levels p:last-child {
+      width: 8%;
+      padding-right: 0;
+      text-align: right; }
 
 .character_bio {
   width: 50%;
   float: left;
   box-sizing: border-box; }
+  .character_bio img {
+    margin-left: 9%; }
   .character_bio a {
     display: inline-block;
     padding: 20px 120px;
@@ -238,19 +273,46 @@ form input {
     background-color: red;
     text-align: center; }
   .character_bio h1 {
-    background-color: blue;
-    font-family: Impact; }
+    background-color: yellow;
+    border: solid 1px #000;
+    font-family: Impact;
+    color: blue; }
+
+.categories {
+  padding-top: 20px; }
+  .categories div {
+    position: relative; }
+    .categories div div {
+      background-color: pink;
+      height: 23px;
+      width: 28%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2; }
 
 .power_rating {
-  background-image: url(../img/power_ratings.jpg);
-  background-repeat: no-repeat;
-  background-size: contain; }
+  float: right;
+  width: 60%;
+  background-color: #fff;
+  margin-right: 15px;
+  border: solid 2px #000;
+  background-image: url(../img/tile.jpg); }
   .power_rating div {
     list-style: none;
     color: #000; }
     .power_rating div h4 {
-      padding: 0;
-      margin: 0; }
+      padding: 4px;
+      margin: 4px;
+      z-index: 10;
+      position: relative; }
+  .power_rating h3 {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5em; }
 
 .wins_losses {
   background-color: #fff;
