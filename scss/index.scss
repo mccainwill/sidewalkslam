@@ -10,6 +10,8 @@
 
 @import "matchup";
 
+@import "fight";
+
 @import "bio";
 
 body{
@@ -23,18 +25,18 @@ body{
 	background-attachment:fixed;
 }
 
-.logo_wrapper{
+// .logo_wrapper{
 
-	background-repeat:no-repeat;
-	background-size:contain;
-	width:100%;
-	height:100%;
+// 	background-repeat:no-repeat;
+// 	background-size:contain;
+// 	width:100%;
+// 	height:100%;
 
-}
+// }
 
-.wrapper{
+main{
 
-	margin:0 auto;
+	
 
 }
 
@@ -53,7 +55,6 @@ header{
 		// color:yellow;
 		margin:0;
 		position: relative;
-		width:380px;
 		float:left;
 		font-weight: 100;
 		margin-left: 19%;
@@ -257,35 +258,8 @@ header{
 				float:left;
 			}
 
-			// .character2{
-			// 	background:url(../img/character_square.jpg);
-			// 	width:200px;
-			// 	height:200px;
-			// 	float:left;
-			// }
-
 		}
 
-		// .battle2{
-
-		// 	.character1{
-		// 		background:url(../img/character_square.jpg);
-		// 		background-size:100%;
-		// 		background-repeat:no-repeat;
-		// 		// width:200px;
-		// 		width:40%;
-		// 		height:200px;
-		// 		float:left;
-		// 	}
-
-		// 	.character2{
-		// 		background:url(../img/character_square.jpg);
-		// 		width:200px;
-		// 		height:200px;
-		// 		float:left;
-		// 	}
-		
-		
 	}
 
 }
