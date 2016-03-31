@@ -101,6 +101,9 @@ form input {
   .searchresults li {
     display: block; }
 
+.active {
+  display: block; }
+
 .pre-pick {
   width: 100%;
   height: inherit;
