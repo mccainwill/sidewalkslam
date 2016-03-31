@@ -207,6 +207,25 @@ form input {
     padding: 40px 0;
     font-size: 1.5em; }
 
+.battle_buttons {
+  width: 100%; }
+  .battle_buttons ul {
+    padding: 0; }
+
+.button {
+  display: inline-block;
+  width: 30%;
+  height: 100px;
+  background: orange;
+  float: left;
+  text-align: center;
+  border: 6px solid #000;
+  margin: 0 10px; }
+  .button p {
+    font-size: 2em;
+    color: #000;
+    font-family: Badaboom; }
+
 .combatant {
   padding-left: 31px;
   background-image: url(../img/bio_bg_03.jpg);
