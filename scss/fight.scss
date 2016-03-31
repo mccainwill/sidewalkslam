@@ -124,19 +124,46 @@
 
 .turn_battle {
 
-    .char_one{
-        float: left;
+    .char_one, .char_two{
+        
+        display: table;
 
         p{
-            float: right;
+            font-size: 1.5em;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        img{
+            width: 100px;
+        }
+    }
+
+    .char_one{
+        float: left;
+        padding: 20px 0 0 20px;
+
+        p{
+            // float: right;
+        }
+
+        img{
+            float: left;
+            padding-right: 10px;
         }
     }
 
     .char_two{
         float: right;
+        padding: 0 20px 20px 0;
 
         p{
-            float: left;
+            // float: left;
+        }
+
+        img{
+            float: right;
+            padding-left: 10px;
         }
     }
 }
@@ -144,4 +171,5 @@
 .turns{
     list-style-type: none;
     padding:0;
+    margin: 0;
 }
