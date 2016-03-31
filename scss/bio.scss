@@ -1,5 +1,11 @@
-.card{
+.combatant{
 	background-image: url(../img/bio_bg.jpg);
+	background-size: contain;
 	background-repeat: no-repeat;
 	margin: 0 auto;
+}
+
+.character_bio{
+	background-color: #fff4d5;
+	width: 50%;
 }
