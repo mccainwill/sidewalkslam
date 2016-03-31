@@ -138,6 +138,12 @@ form input {
     color: #000;
     width: 125px; }
 
+.arena {
+  background: url(../img/sidewalk.jpg);
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat; }
+
 .card {
   background-image: url(../img/bio_bg.jpg);
   background-repeat: no-repeat;
