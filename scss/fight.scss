@@ -84,13 +84,12 @@
 
 .battle_buttons{
 	width:100%;
+    display: block;
 
 	ul{
 		padding:0;
-	}
-
-	li{
-		float: left;
+        display: block;
+        text-align: center;
 	}
 
 	li:first-child{
@@ -99,7 +98,6 @@
 
 	li:last-child{
 		margin-left:10px;
-		float: right;
 	}
 }
 

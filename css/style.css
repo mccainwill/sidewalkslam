@@ -14,7 +14,7 @@
 .clear {
   clear: both; }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
   main {
     width: 80%;
     margin: 0 auto; }
@@ -24,6 +24,24 @@
     top: -85px;
     left: -91px;
     z-index: 1; }
+
+  .top_nav {
+    padding: 0;
+    margin: 30px 0 0 0;
+    float: right; }
+    .top_nav a {
+      padding: 10px 10px; }
+
+  li {
+    color: yellow;
+    display: inline-block;
+    padding: 5px; }
+    li:last-child a {
+      padding: 10px 30px;
+      margin-left: 30px; }
+
+  .character_button {
+    left: 10%; }
 
   .main_toppicks, .recent_battles {
     float: left;
@@ -38,6 +56,17 @@
     height: 100px;
     margin: 0 auto;
     padding: 0 7.5%; } }
+@media screen and (min-width: 1000px) {
+  .top_nav a {
+    padding: 15px 50px; }
+
+  li:last-child a {
+    padding: 15px 65px;
+    margin-left: 30px; }
+
+  .character_button {
+    top: 100px;
+    left: 20%; } }
 @font-face {
   font-family: Badaboom;
   src: url(../fonts/badaboom.ttf);
@@ -208,16 +237,16 @@ form input {
     font-size: 1.5em; }
 
 .battle_buttons {
-  width: 100%; }
+  width: 100%;
+  display: block; }
   .battle_buttons ul {
-    padding: 0; }
-  .battle_buttons li {
-    float: left; }
+    padding: 0;
+    display: block;
+    text-align: center; }
   .battle_buttons li:first-child {
     margin-right: 10px; }
   .battle_buttons li:last-child {
-    margin-left: 10px;
-    float: right; }
+    margin-left: 10px; }
 
 .button {
   display: inline-block;
@@ -517,7 +546,7 @@ header {
     background-repeat: no-repeat;
     display: block;
     width: 20%;
-    height: 111px;
+    height: 130px;
     float: left;
     margin-top: 7%; }
   .picks_battles .recent_battles .battle1 .character1, .picks_battles .recent_battles .battle1 .character2, .picks_battles .recent_battles .battle2 .character1, .picks_battles .recent_battles .battle2 .character2 {
