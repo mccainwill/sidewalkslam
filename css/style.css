@@ -513,7 +513,7 @@ header {
   width: 220px;
   height: 200px;
   position: relative;
-  top: 50px;
+  top: 0;
   left: 60%;
   font-family: bebas_neue_regularregular; }
   .battle_button h2 {
