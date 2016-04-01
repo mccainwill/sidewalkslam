@@ -477,7 +477,7 @@ header {
   .buttons img {
     position: absolute;
     left: 40%;
-    top: 35%; }
+    top: 37%; }
 
 .character_button {
   background: url(../img/choose_button.png);
@@ -486,7 +486,7 @@ header {
   width: 220px;
   height: 200px;
   position: relative;
-  top: 100px;
+  top: 134px;
   left: 20%;
   font-family: bebas_neue_regularregular; }
   .character_button h2 {
@@ -495,6 +495,8 @@ header {
     text-align: center;
     font-size: 2em; }
   .character_button a {
+    font-family: Badaboom;
+    font-weight: 100;
     text-decoration: none;
     font-size: .75em;
     color: yellow;
@@ -513,7 +515,7 @@ header {
   width: 220px;
   height: 200px;
   position: relative;
-  top: 0;
+  top: 25px;
   left: 60%;
   font-family: bebas_neue_regularregular; }
   .battle_button h2 {
@@ -522,6 +524,8 @@ header {
     text-align: center;
     font-size: 2em; }
   .battle_button a {
+    font-family: Badaboom;
+    font-weight: 100;
     text-decoration: none;
     font-size: .75em;
     color: yellow;
