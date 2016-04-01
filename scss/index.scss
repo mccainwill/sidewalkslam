@@ -29,15 +29,6 @@ body{
 	background-attachment:fixed;
 }
 
-// .logo_wrapper{
-
-// 	background-repeat:no-repeat;
-// 	background-size:contain;
-// 	width:100%;
-// 	height:100%;
-
-// }
-
 main{
 
 	
@@ -115,7 +106,15 @@ header{
 }
 
 .buttons{
+	position: relative;
 	height:574px;
+	
+	img{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+	}
+	
 }
 
 .character_button{
